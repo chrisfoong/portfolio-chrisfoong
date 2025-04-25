@@ -1,7 +1,6 @@
 import Footerbar from "@/components/Footerbar";
 import Techstack from "@/components/Techstack";
 import Chris from "@/public/picture/Chris";
-import Image from "next/image";
 export default function Home() {
     return (
         <>
