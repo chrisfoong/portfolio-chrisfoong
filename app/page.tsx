@@ -16,13 +16,14 @@ export default function Home() {
                 <div className="mt-5 mr-5 flex justify-center">
                     <Image src="/assets/screenshot.png" alt="chris" width={250} height={250} className="rounded-full object-cover"/>
                 </div>
-            </div>
-                <main className="flex flex-col mt-2 ml-14 text-white">
+                <div className="flex flex-col mt-2 ml-14 text-white">
                     <h1 className="text-3xl font-semibold">Tech Stacks</h1>
                     <div className="p-5">
                         <Techstack />
                     </div>
-                </main>
+                </div>
+            </div>
+
 
             <footer className="flex justify-center mt-2 ml-5">
                 Skibidi Rizzler - Chimpazini Banini

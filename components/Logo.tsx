@@ -5,7 +5,7 @@ export default function Logo() {
     return (
         <>
             <Link href={"https://github.com/chrisfoong"} target={"_blank"}> 
-                <div className="flex">
+                <div className="flex text-white">
                         <ImGithub size={56}/>
                         <p className="m-4.5">chrisfoong</p>
                 </div>
