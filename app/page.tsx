@@ -13,7 +13,6 @@ export default function Home() {
                     </div>
                 </article>
                 <div className="mt-10 mr-5 flex justify-center">
-                    {/* <Image src="/assets/screenshot.png" alt="chris" width={250} height={250} className="rounded-full object-cover"/> */}
                     <Chris />
                 </div>
                 <div className="flex flex-col mt-2 ml-14 text-white">
