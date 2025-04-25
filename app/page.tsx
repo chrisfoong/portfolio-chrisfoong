@@ -1,4 +1,3 @@
-import Button from "@/components/Button";
 import Techstack from "@/components/Techstack";
 import Image from "next/image";
 
@@ -9,7 +8,8 @@ export default function Home() {
                 <article className="mt-5 ml-10">
                     <div className="font-mono p-5 flex flex-col justify-items-right">
                         <h1 className="text-4xl font-semibold mb-2">Read Here</h1>
-                        <h2 className="w-auto">Hi, I'm Chris Foong but you can call me Chris. I'm a passionate programmer who loves clean code, efficient workflows, and living in the terminal. I'm especially obsessed with Vim—yes, the kind of love that makes me remap keys just to shave off milliseconds. I'm all about making things faster, simpler, and smarter.</h2>
+                        <h2 className="w-auto">{`Hi, I'm Chris Foong but you can call me Chris. I'm a passionate programmer who loves clean code, efficient workflows, and living in the terminal. I'm especially obsessed with Vim—yes, the kind of love that makes me remap keys just to shave off milliseconds. I'm all about making things faster, simpler, and smarter.`}</h2>
+                        
                         <p className="mt-2">- Chris Foong</p>
                     </div>
                 </article>
